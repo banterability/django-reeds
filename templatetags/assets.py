@@ -10,6 +10,13 @@ def versioned(path):
     from the short hash of the current git commit) in the
     query string.
     
+        Sample use:
+            {% load assets %}
+            <script src="{% versioned '/static/js/main.js' %}"></script>
+
+        Output:
+            <script src="/static/js/main.js?v=f498dd2"></script>
+    
     Allows far-future expire headers with automatic
     invalidation on code deploys.
     
