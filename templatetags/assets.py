@@ -32,7 +32,7 @@ def versioned(path):
 # import subprocess
 # 
 # ASSET_HASH = subprocess.Popen(
-#     "git log -1 --abbrev-commit",
+#     "git rev-parse --short HEAD",
 #     cwd=SITE_ROOT,
 #     stdout=subprocess.PIPE,
-#     shell = True).communicate()[0].split(' ')[1].split('\n')[0]
+#     shell = True).communicate()[0][:-1]

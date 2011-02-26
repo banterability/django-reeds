@@ -9,7 +9,7 @@ A collection of useful functions.
 ## templatetags
 
 ### - assets.py
-- Change querystring on assets based on the hash of the current Git commit (Source: [Matt Langer](http://blog.mattlanger.com/post/3200453164))
+- Change querystring on assets based on the hash of the current Git commit (Inspiration: [Matt Langer](http://blog.mattlanger.com/post/3200453164))
 
 ### - timeago.py
 - Builds `<abbr>` tags for use with Yarp's [Timeago](http://timeago.yarp.com/) javascript library
