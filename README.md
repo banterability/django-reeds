@@ -16,3 +16,6 @@ A collection of useful functions.
 
 ### - twittilize.py
 - Detect usernames, hashtags, and links in tweets (Source: [Six Apart's typepad-motion](https://github.com/sixapart/typepad-motion/blob/master/motion/templatetags/twittilize.py))
+
+### - verbatim.py
+- Ignores "{{" and "}}" characters in a section of code. Useful for [Mustache](https://github.com/janl/mustache.js)/[jQuery-style](http://api.jquery.com/category/plugins/templates/) templates. (Source: [Eric Florenzano](https://gist.github.com/629508))
